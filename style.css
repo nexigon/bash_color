@@ -1,0 +1,72 @@
+body {
+  font-family: "Courier New", monospace;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.terminal {
+  background-color: #222;
+  color: #ccc;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.output {
+  white-space: pre-wrap;
+  font-size: 16px;
+}
+
+.input-line {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.input-line span {
+  margin-right: 10px;
+  color: lime;
+}
+
+input {
+  flex-grow: 1;
+  padding: 8px;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+ 
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+button,
+input[type="color"] {
+  margin: 8px 0;
+  padding: 10px 15px;
+  background-color: #000000ce;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
